@@ -1,0 +1,43 @@
+.clip-one {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.clip-two {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.clip-three {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.m-message-container {
+  z-index: 99999 !important;
+}
+
+.ant-input:focus, .ant-input:hover {
+  border-color: #f53333!important;
+  box-shadow: none!important;
+}
+
+.recommend-reason.animate__slideInUp {
+  --animate-duration: 0.5s;
+}
